@@ -1,0 +1,54 @@
+.container {
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-1);
+};
+
+.header {
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--line);
+};
+
+.content {
+    display: flex;
+};
+
+.side-bar {
+    flex: 0 0 18%;
+    background-color: var(--color-grey-dark-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+};
+
+.hotem-view {
+    flex: 1;
+};
+
+.detail {
+    padding: 4.5rem;
+    display: flex;
+    font-size: 1.4rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+    flex-wrap: wrap;
+};
+
+.description {
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+    background-color: #fff;
+    padding: 3rem;
+    box-shadow: var(--shadow-light);
+};
+
+.user-review {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+};
+
